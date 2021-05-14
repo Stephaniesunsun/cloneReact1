@@ -35,7 +35,6 @@ const Issue1 = () => {
                     <RightStatic />
                 </div>
             </Section1>
- 
     )
 }
 

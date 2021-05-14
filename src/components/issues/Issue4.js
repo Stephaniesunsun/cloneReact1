@@ -9,6 +9,9 @@ const Section4=styled.section`
   background-color:#ff651a;
   display:grid;
   grid-template-columns:repeat(auto-fit,33%);
+  &>*{
+    scroll-snap-stop:normal;
+  }
 `
 const Img4=styled.img`
     display:block;

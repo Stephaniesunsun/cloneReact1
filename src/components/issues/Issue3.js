@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import LeftStatic from '../Left';
 import RightStatic from '../Right';
 
-
 const Section3=styled.section`
     height:100vh;
     width:100vw;

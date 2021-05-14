@@ -1,3 +1,4 @@
+//right static part, reusable for every issue 
 import React from 'react'
 import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
@@ -38,18 +39,21 @@ const NavLink=styled(Link)`
     &:hover{
         border-bottom:2px solid black;
     }
+    &.active{
+        border-bottom:2px dotted black;
+    }
 `
 const RightStatic = () => {
     return (
         <Right>
             <Email to="/info">info@backstagetalks.com</Email>
+            //specify the nav bar internal scrolling links 
             <Nav>
                 <LinkWrapper>
                     <NavLink to="issue5" smooth={true}
                     duration={500}
                     spy={true}
-                    exact="true"
-                    >Issue #5</NavLink>
+                    exact="true">Issue #5</NavLink>
                 </LinkWrapper>
                 <LinkWrapper>
                     <NavLink to="issue4" smooth={true}

@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
 import LeftStatic from '../Left';
 import RightStatic from '../Right';
 
@@ -11,7 +10,6 @@ const Section5=styled.section`
   display:grid;
   grid-template-columns:repeat(auto-fit,33%);
 `
-
 const Img5=styled.img`
     display:block;
     flex-basis:100%;
@@ -37,7 +35,6 @@ const Issue5 = () => {
                     <RightStatic />
                 </div>
             </Section5>
-
     )
 }
 
