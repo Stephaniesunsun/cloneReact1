@@ -47,7 +47,6 @@ const RightStatic = () => {
     return (
         <Right>
             <Email to="/info">info@backstagetalks.com</Email>
-            //specify the nav bar internal scrolling links 
             <Nav>
                 <LinkWrapper>
                     <NavLink to="issue5" smooth={true}

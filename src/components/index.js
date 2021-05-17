@@ -14,7 +14,6 @@ const Middle=styled.div``;
 function PageLayout(){
     return (
         <div className="whole">
-            //specify all the external links that are used in the entire page (redirect)
             <Router>
                 <Route path='/milk' component={()=>{
                         window.location.href='https://milk.sk/';
