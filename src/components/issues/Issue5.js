@@ -2,6 +2,9 @@ import React from 'react'
 import styled from 'styled-components';
 import LeftStatic from '../Left';
 import RightStatic from '../Right';
+import {ImgWrapper,
+    Img,
+    DesIssue} from './issueStyles'
 
 const Section5=styled.section`
   height:100vh;
@@ -10,27 +13,17 @@ const Section5=styled.section`
   display:grid;
   grid-template-columns:repeat(auto-fit,33%);
 `
-const Img5=styled.img`
-    display:block;
-    flex-basis:100%;
-    object-fit:cover;
-    max-width:100%;
-    max-height:100%;
-    top:7%;
-`
-const DesIssue5=styled.p`
-    text-align:center;
-`
+
 const Issue5 = () => {
     return (
             <Section5 id="issue5">
                 <div>
                     <LeftStatic />
                 </div>
-                <div>
-                    <Img5 src='https://backstagetalks.com/img/backstagetalks_cover_issue_5.png' alt="Issue5"/>
-                    <DesIssue5>Issue #5</DesIssue5>
-                </div>
+                <ImgWrapper>
+                    <Img src='https://backstagetalks.com/img/backstagetalks_cover_issue_5.png' alt="Issue5"/>
+                    <DesIssue>Issue #5</DesIssue>
+                </ImgWrapper>
                 <div>
                     <RightStatic />
                 </div>

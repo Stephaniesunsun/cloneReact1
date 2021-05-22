@@ -16,8 +16,11 @@ position:fixed;
 const Desc=styled.p`
     position:fixed;
     left:2%;
-    right:66%;
+    right:75%;
     bottom:15%;
+    @media screen and (min-width:1018px){
+    right:66%;
+    }
 `;
 const Span1=styled(Link)`
     color:black;

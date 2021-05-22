@@ -7,7 +7,6 @@ import Issue2 from './issues/Issue2'
 import Issue3 from './issues/Issue3'
 import Issue4 from './issues/Issue4'
 import Issue5 from './issues/Issue5'
-import '../App.scss';
 
 const Middle=styled.div``;
 

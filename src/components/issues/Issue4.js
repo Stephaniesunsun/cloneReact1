@@ -2,6 +2,9 @@ import React from 'react'
 import styled from 'styled-components';
 import LeftStatic from '../Left';
 import RightStatic from '../Right';
+import {ImgWrapper,
+    Img,
+    DesIssue} from './issueStyles'
 
 const Section4=styled.section`
     height:100vh;
@@ -13,27 +16,17 @@ const Section4=styled.section`
     scroll-snap-stop:normal;
   }
 `
-const Img4=styled.img`
-    display:block;
-    flex-basis:100%;
-    object-fit:cover;
-    max-width:100%;
-    max-height:100%;
-    top:7%;
-`
-const DesIssue4=styled.p`
-    text-align:center;
-`
+
 const Issue4 = () => {
     return (
             <Section4 id="issue4">
                 <div>
                     <LeftStatic />
                 </div>
-                <div>          
-                    <Img4 src='https://backstagetalks.com/img/backstagetalks_cover_issue_4.png' alt="Issue4"/>
-                    <DesIssue4>Issue #4</DesIssue4>
-                </div>
+                <ImgWrapper>          
+                    <Img src='https://backstagetalks.com/img/backstagetalks_cover_issue_4.png' alt="Issue4"/>
+                    <DesIssue>Issue #4</DesIssue>
+                </ImgWrapper>
                 <div>
                     <RightStatic />
                 </div>
